@@ -1,9 +1,10 @@
 ---
 marp: true
-<!-- theme: gaia -->
----
 
+---
+<!-- backgroundColor: orange -->
 # Django Tutorial
+
 ---
 
 ## Installing Django
@@ -26,3 +27,17 @@ to check if the project is successfully created
 ```
 python3 manage.py runserver
 ```
+---
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
