@@ -1,11 +1,23 @@
 ---
 marp: true
+footer: '![eko](https://---/) Eko Supriyono @akueko'
+paginate: true
+_paginate: false
 
+theme: base-theme
+style: |
+  section.title h1 {
+    font-size: 125px;
+    text-align: center;
+  }
 ---
+
+<!-- _class: title -->
 
 # Django Tutorial
 
 ---
+
 
 # Installing Django
 To install django we can type in the command line:
@@ -18,6 +30,9 @@ pip3 install --upgrade django==3.0
 ```
 
 ---
+
+
+
 ## Starting a project
 Let's say we want to make a todo app. On a specified folder, e.g. project_django folder, you can type: 
 
@@ -26,7 +41,8 @@ python3 manage.py startproject todo
 ```
 
 ---
-# Project file structure
+
+## Project file structure
 By default the project files will be structured like:
 > project_django/
 > > manage.py
@@ -74,6 +90,8 @@ We will be prompted to fill the username, email, and password.
 _Note that the password will not be shown on the screen_
 
 ---
+![bg right](images/bg1.jpg)
+<!--  -->
 
 ## Let's check the admin page
 By default django also include simple admin page that powerful enough for our needs
@@ -100,4 +118,6 @@ The new apps will have files that structured like:
 > > > models.py
 > > > views.py
 > > > migrations/
- 
+
+---
+
